@@ -1,0 +1,22 @@
+#ifndef __NAMECLASS__
+#define __NAMECLASS__
+
+class NAME {
+public:
+    // interface
+    // ------
+    NAME();
+    ~NAME();
+    NAME(const NAME &other);
+    NAME& finish copy assignment....
+
+       
+private:
+    // members
+    // ------
+    
+    // methods
+    // ------
+};
+
+#endif
