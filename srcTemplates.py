@@ -1,6 +1,7 @@
 """
-construct src files with prefilled boilercode
-usage: ./srcTemplates [type] [name] [destination]
+construct src files with prefilled boilerplate code
+usage: 
+> python3.10 ./srcTemplates [type] [name] [destination]
 
 available template types:
     1. python
