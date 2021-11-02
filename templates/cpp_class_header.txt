@@ -1,5 +1,5 @@
-#ifndef __NAMECLASS__
-#define __NAMECLASS__
+#ifndef __NAMEclass__
+#define __NAMEclass__
 
 class NAME {
 public:
