@@ -8,7 +8,7 @@ public:
     NAME();
     ~NAME();
     NAME(const NAME &other);
-    NAME& finish copy assignment....
+    NAME& operator=(const NAME &other);
 
        
 private:
@@ -16,7 +16,8 @@ private:
     // ------
     
     // methods
-    // ------
+    void to_string() const;
+
 };
 
 #endif
