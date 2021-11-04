@@ -1,17 +1,3 @@
-"""
-construct src files with prefilled boilerplate code
-usage: 
-> python3.10 ./srcTemplates [type] [name] [destination]
-
-available template types:
-    1. python
-    2. pythonScript
-    3. c
-    4. cpp
-    5. cppClass
-
-"""
-
 import os
 from sys import argv
 
