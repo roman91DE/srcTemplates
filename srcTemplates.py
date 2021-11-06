@@ -1,10 +1,16 @@
 import os
 from sys import argv
 
+def getAbsPath() -> str:
+    """ returns the abs path to the srcTemplate directory"""
+    thisFile = os.path.realpath(__file__)
+    absPath = thisFile.replace("/srcTemplates.py","")
+    return absPath
+    
 
 def makeFile(destination: str, name:str, template:str, extension:str):
     """generates a new file <name.extension> at <destination> from the specified <template>"""
-    istream = open(f"templates/{template}", "r")
+    istream = open(f"{getAbsPath()}/templates/{template}", "r")
     ostream = open(f"{destination}/{name}{extension}", "w")
 
     for line in istream:
