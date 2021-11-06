@@ -3,8 +3,8 @@ from sys import argv
 
 def getAbsPath() -> str:
     """ returns the abs path to the srcTemplate directory"""
-    thisFile = os.path.realpath(__file__)
-    absPath = thisFile.replace("/srcTemplates.py","")
+    thisFile:str = os.path.realpath(__file__)
+    absPath:str = thisFile.replace("/srcTemplates.py","")
     return absPath
     
 
